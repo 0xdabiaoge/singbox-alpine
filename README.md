@@ -12,8 +12,8 @@ wget -N -O /usr/local/bin/sb.sh https://raw.githubusercontent.com/0xdabiaoge/sin
 ## **Alpine版脚本支持的节点类型**
 - **Vless+TCP**
 - **VLESS (REALITY)**
-- **Hysteria2 (自签证书,)**
-- **TUICv5 (自签证书,)**
+- **Hysteria2 (自签证书)**
+- **TUICv5 (自签证书)**
 - **Shadowsocks (aes-256-gcm加密)**
 - **Socks5**
 
