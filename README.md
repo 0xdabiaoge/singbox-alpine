@@ -1,1 +1,26 @@
-# singbox-alpine
+## **SingBox Alpine版**
+
+### **使用以下命令运行脚本**
+
+- **自动创建快捷方式：sb**
+```
+wget -N -O /usr/local/bin/sb.sh https://raw.githubusercontent.com/0xdabiaoge/singbox-lite/main/singbox-lite-alpine.sh && chmod +x /usr/local/bin/sb.sh && ln -sf /usr/local/bin/sb.sh /usr/local/bin/sb && sb
+```
+## **使用方法**
+- **Clash客户端配置文件位于/usr/local/etc/sing-box/clash.yaml，下载后加载到 clash verge 客户端即可使用。**
+
+## **Alpine版脚本支持的节点类型**
+- **Vless+TCP**
+- **VLESS (REALITY)**
+- **Hysteria2 (自签证书, 无需域名)**
+- **TUICv5 (自签证书, 无需域名)**
+- **Shadowsocks (aes-256-gcm)**
+- **Socks5**
+
+## **yaml配置文件模板，可做参考**
+- **[Release](https://github.com/0xdabiaoge/singbox-lite/releases)**
+
+## **免责声明**
+- **本项目仅供学习与技术交流，请在下载后 24 小时内删除，禁止用于商业或非法目的。**
+- **使用本脚本所搭建的服务，请严格遵守部署服务器所在地、服务提供商和用户所在国家/地区的相关法律法规。**
+- **对于任何因不当使用本脚本而导致的法律纠纷或后果，脚本作者及维护者概不负责。**
