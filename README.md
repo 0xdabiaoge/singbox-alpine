@@ -7,9 +7,8 @@
 (curl -LfsS https://raw.githubusercontent.com/0xdabiaoge/singbox-alpine/main/singbox-lite-alpine.sh -o /usr/local/bin/sb || wget -q https://raw.githubusercontent.com/0xdabiaoge/singbox-alpine/main/singbox-lite-alpine.sh -O /usr/local/bin/sb) && chmod +x /usr/local/bin/sb && sb
 ```
 ## **使用方法**
-- **注意，注意，注意：生成的节点链接，如果是纯IPV6地址，需要用[]将IPV6地址括起来，否则导入V2rayN时会出错。**
 - **Clash客户端配置文件位于/usr/local/etc/sing-box/clash.yaml，下载后加载到 clash verge 客户端即可使用。**
-- **菜单选择 7 查看节点分享链接，复制粘贴导入v2rayN即可使用**
+- **菜单选择查看节点分享链接，复制粘贴导入v2rayN即可使用**
 
 ## **Alpine版脚本支持的节点类型**
 - **Vless+TCP**
