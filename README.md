@@ -1,5 +1,9 @@
 ## **SingBox Alpine版**
 
+- **极小极小的占用，自动识别安装依赖**
+- **自动识别IPV4，ipv6**
+- **Hysteria2可选择开启QUIC流量混淆（需要客户端支持）**
+
 ### **使用以下命令运行脚本**
 
 - **自动创建快捷方式：sb**
@@ -7,13 +11,13 @@
 (curl -LfsS https://raw.githubusercontent.com/0xdabiaoge/singbox-alpine/main/singbox-lite-alpine.sh -o /usr/local/bin/sb || wget -q https://raw.githubusercontent.com/0xdabiaoge/singbox-alpine/main/singbox-lite-alpine.sh -O /usr/local/bin/sb) && chmod +x /usr/local/bin/sb && sb
 ```
 ## **使用方法**
-- **Clash客户端配置文件位于/usr/local/etc/sing-box/clash.yaml，下载后加载到 clash verge 客户端即可使用。**
+- **Clash客户端配置文件位于/usr/local/etc/sing-box/clash.yaml，下载后加载到 clash verge 客户端即可使用**
 - **菜单选择查看节点分享链接，复制粘贴导入v2rayN即可使用**
 
 ## **Alpine版脚本支持的节点类型**
 - **VLESS (REALITY)**
-- **Hysteria2 **
-- **TUICv5 **
+- **Hysteria2（自签证书）**
+- **TUICv5（自签证书）**
 - **Shadowsocks (aes-256-gcm加密)**
 - **Socks5**
 
