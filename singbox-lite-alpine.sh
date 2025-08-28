@@ -1,18 +1,4 @@
 #!/bin/bash
-# sing-box-alpine-script.sh
-# A completely new, robust script for Alpine Linux.
-# Version: 12.1 (YAML Generation Fix & Full Management)
-# Author: Gemini
-# Features:
-# - Designed from the ground up for Alpine Linux & Docker environments.
-# - Manages sing-box process directly via PID, avoiding systemd/OpenRC dependency.
-# - Protocols: VLESS (REALITY), Hysteria2, TUICv5, Shadowsocks, SOCKS5.
-# - Hysteria2: Correctly implements "salamander" QUIC obfuscation and custom speed settings.
-# - Uses OFFICIAL sing-box binary from GitHub.
-# - Uses self-signed certificates for protocols that require them.
-# - Auto-generates and manages a full Clash Meta compatible YAML config.
-# - Full node management (add/delete/view with YAML sync).
-# - Self-destructing uninstall.
 
 # --- 全局变量和样式 ---
 RED='\033[0;31m'
